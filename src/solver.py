@@ -80,17 +80,8 @@ def solve(board):
 
     return False
 
-# try a number
-
-# find one that works
 print_board(board)
 solve(board)
 print("")
 print("")
 print_board(board)
-
-# repeat until no options work
-
-# backtrack to try something else
-
-#print(board)
