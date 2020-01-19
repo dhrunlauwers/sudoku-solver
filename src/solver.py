@@ -1,15 +1,3 @@
-board = [
-    [3,0,1,0,0,4,0,5,0],
-    [4,0,7,0,0,0,6,9,0],
-    [0,9,0,0,3,0,0,7,1],
-    [0,2,8,0,1,0,9,0,7],
-    [0,0,0,2,0,7,0,0,0],
-    [1,0,6,0,5,0,2,4,0],
-    [7,5,0,0,6,0,0,2,0],
-    [0,1,3,0,0,0,5,0,9],
-    [0,4,0,5,0,0,7,0,6]
-]
-
 def print_board(board):
 # takes a board, and prints it to console
     for i in range(len(board)):
@@ -80,8 +68,3 @@ def solve(board):
 
     return False
 
-print_board(board)
-solve(board)
-print("")
-print("")
-print_board(board)
